@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="pt-br">
+    <head>
+        <title class="name-fist"> Lucas Lôbo </title>
+        <link rel="icon" type="image/x-icon" href="/SITE PROFISSONAL/Imagens/img/Favicon.png">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">  
+        <meta name="author" content="Daniel">
+        <meta name="description" content="descrição bacanuda">
+        <meta name="keywords" content="html5, tecnologia">
+
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+        <!-- Fonts -->
+        <link href='http://fonts.googleapis.com/css?family=Sintony:400,700' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
+        
+      <link rel="stylesheet" href="/Style/normalize.css">
+      <link rel="stylesheet" href="/Style/main.css">
+    </head>
+    
+    
+    <body class="body">
+        
+        <header class="header">
+          <a class="logo-text">Lucas Lôbo</a>
+          
+          <time>12:00:00</time>
+          
+          <script>
+
+                const showTimeNow = () =>{
+                const clockTag = document.querySelector('time');
+
+                
+                let dateNow = new Date();
+                let hh = dateNow.getHours();
+                let mm = dateNow.getMinutes();
+                let ss = dateNow.getSeconds();
+
+                //validando a necessidade de adicionar zero na exibição
+                hh = hh < 10 ? '0'+ hh : hh; 
+                mm = mm < 10 ? '0'+ mm : mm; 
+                ss = ss < 10 ? '0'+ ss : ss; 
+
+                // atribuindo os valores e montando o formato da hora a ser exibido
+                clockTag.innerText = hh +':'+ mm +':'+ ss;
+                }
+                //executando a funcao a cada 1 segundo
+                showTimeNow()
+                setInterval(showTimeNow, 1000);
+
+          </script>
+
+          <div class="container">
+            <p>Olá! Sou Lucas Lôbo,<span class="typed-text"><br> Desenvolvedor Front and...</span><span class="cursor">&nbsp;</span></p>
+          </div>
+        
+          <nav class="header_nav">
+            <ul>
+              <li><a href="/Pages/cursos.html">Cursos</a></li>
+              <li><a href="/Pages/experiencias.html">Experiências</a></li>
+              <li><a href="/Pages/Projetos.html">Projetos</a></li>
+              <li><a href="/MENU/formacao.html">Formação</a></li>
+              
+            </ul>
+          </nav>
+          
+          <figure class="figure_github">
+            <a href="#" class="imagem_github"><img src="/Imagens/img/github.png" alt=""width="120" height="40"></a>
+          </figure>
+
+          <figure class="figure_linkedin">
+            <a href="#" class="imagem_linkedin"><img src="/Imagens/img/Linkedin-Logo.png" alt="" width="100" height="60"></a>
+          </figure>
+
+          
+        
+        </header>
+        
+        <section class="text-logo">            
+          <h2><h2><br>
+            <p>Este site foi desenvolvido com as tecnologias
+              <br>HTML, CSS e Javascript.</p>     
+        </section>
+        
+        
+         <body>
+    <footer class="rodape_index">
+        <a1>© 2023 Lucas Lôbo – Todos os Direitos Reservados</a1>
+        <a> | Developer Fullstack</a>
+        
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+      <a href="https://wa.me/5577999982517?text=Olá dorei%20seu%20artigo" style="position:fixed;width:60px;height:60px;bottom:40px;right:40px;background-color:#25d366;color:#FFF;border-radius:50px;text-align:center;font-size:30px;box-shadow: 1px 1px 2px #888;
+        z-index:1000;" target="_blank">
+      <i style="margin-top:16px" class="fa fa-whatsapp"></i>
+      </a>
+    </footer>
+
+    
+</html>
