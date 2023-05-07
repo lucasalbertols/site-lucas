@@ -7,15 +7,18 @@
    }
 
 .logo-text{
+  margin-top: -5px;;
 text-transform: uppercase;
-background-color: rgb(76, 0, 99);
+background-color: rgb(49, 4, 63);
 font-size: 24px;
-margin: 100;
-padding: 20px;;
+margin: 80;
+height: 40px;
+width: 200px; auto;
+padding: 6px;
 color: aliceblue;
 text-decoration: none;
 font-weight: bold;
-text-shadow: rgb(117, 18, 18) 0.1em 0.1em 0.2em;
+text-shadow: rgb(19, 13, 13) 0.1em 0.1em 0.2em;
 display:inline-block;
 text-align: center;
 }
@@ -23,7 +26,7 @@ text-align: center;
 .header_nav{
 display:block;
 width:150px;
-padding-top: 30px;
+padding-top: 0px;
 }
 
 .header_nav ul{
@@ -35,7 +38,7 @@ padding-top: 30px;
 .header_nav li{
   list-style-type: none;
   text-align: center;
-  border-bottom: 1px dotted rgba(218, 32, 32, 0.2);
+  border-bottom: 1px dotted rgba(243, 239, 239, 0.2);
 
 
     }
@@ -46,15 +49,15 @@ padding-top: 30px;
         color: aliceblue;
         font-size: 14px;
         font-weight: 600;
-        background-color: rgb(93, 14, 173);
+        background-color: rgb(65, 7, 112);
         display:block;
         padding: 25px;
         transition: .2s ease;
-        border-radius: 10px;
+        border-radius: 3px;
         }
 
 .header_nav a:hover{
-  background-color: rgb(12, 106, 212);
+  background-color: rgb(3, 52, 112);
         box-shadow:
                 1px 1px #53a7ea,
                 2px 2px #53a7ea,
